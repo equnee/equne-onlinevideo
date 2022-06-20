@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.equne.onlinevideo</OriginalElement>
+  <nodes>
+    <node x="466.0" y="422.9999999999998">com.equne.onlinevideo.dao.CourseTopicDao</node>
+    <node x="416.9999999999997" y="789.0">com.equne.onlinevideo.dao.CourseVideoDao</node>
+    <node x="268.0" y="295.9999999999998">com.equne.onlinevideo.service.CourseVideoService</node>
+    <node x="222.0" y="555.5000000000001">com.equne.onlinevideo.service.impl.CourseVideoServiceImpl</node>
+    <node x="627.4999999999995" y="579.4999999999998">com.equne.onlinevideo.service.impl.CourseTopicServiceImpl</node>
+    <node x="1020.5" y="415.0">com.equne.onlinevideo.service.CourseTopicService</node>
+    <node x="828.5" y="243.5">com.equne.onlinevideo.controller.TopicController</node>
+    <node x="1047.0" y="571.5">com.equne.onlinevideo.controller.PageController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.equne.onlinevideo.controller.TopicController" target="com.equne.onlinevideo.service.CourseVideoService">
+      <point x="-192.5" y="0.0" />
+      <point x="156.0" y="0.0" />
+    </edge>
+    <edge source="com.equne.onlinevideo.controller.TopicController" target="com.equne.onlinevideo.service.CourseTopicService">
+      <point x="0.0" y="60.5" />
+      <point x="0.0" y="-49.0" />
+    </edge>
+    <edge source="com.equne.onlinevideo.service.impl.CourseVideoServiceImpl" target="com.equne.onlinevideo.service.CourseVideoService">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.equne.onlinevideo.service.impl.CourseVideoServiceImpl" target="com.equne.onlinevideo.service.impl.CourseVideoServiceImpl">
+      <point x="0.0" y="49.5" />
+      <point x="382.0" y="741.0000000000001" />
+      <point x="182.0" y="741.0000000000001" />
+      <point x="182.0" y="621.0000000000001" />
+      <point x="-156.0" y="0.0" />
+    </edge>
+    <edge source="com.equne.onlinevideo.controller.PageController" target="com.equne.onlinevideo.service.CourseTopicService">
+      <point x="0.0" y="-148.5" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.equne.onlinevideo.service.impl.CourseTopicServiceImpl" target="com.equne.onlinevideo.service.CourseTopicService">
+      <point x="177.5" y="0.0" />
+      <point x="-177.5" y="0.0" />
+    </edge>
+    <edge source="com.equne.onlinevideo.service.impl.CourseTopicServiceImpl" target="com.equne.onlinevideo.service.impl.CourseTopicServiceImpl">
+      <point x="0.0" y="60.5" />
+      <point x="804.9999999999995" y="759.9999999999998" />
+      <point x="564.9999999999995" y="759.9999999999998" />
+      <point x="564.9999999999995" y="639.9999999999998" />
+      <point x="-177.5" y="0.0" />
+    </edge>
+    <edge source="com.equne.onlinevideo.controller.TopicController" target="com.equne.onlinevideo.controller.TopicController">
+      <point x="0.0" y="-60.5" />
+      <point x="1021.0" y="184.0" />
+      <point x="1261.0" y="184.0" />
+      <point x="1261.0" y="304.0" />
+      <point x="192.5" y="0.0" />
+    </edge>
+    <edge source="com.equne.onlinevideo.service.impl.CourseVideoServiceImpl" target="com.equne.onlinevideo.dao.CourseVideoDao">
+      <point x="156.0" y="0.0" />
+      <point x="-260.0" y="0.0" />
+    </edge>
+    <edge source="com.equne.onlinevideo.service.impl.CourseTopicServiceImpl" target="com.equne.onlinevideo.dao.CourseTopicDao">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.equne.onlinevideo.controller.PageController" target="com.equne.onlinevideo.controller.PageController">
+      <point x="153.0" y="0.0" />
+      <point x="1400.0" y="720.0" />
+      <point x="1400.0" y="920.0" />
+      <point x="1200.0" y="920.0" />
+      <point x="0.0" y="148.5" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="0.5000000000000001" x="1186.5" y="730.7499999999997" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
